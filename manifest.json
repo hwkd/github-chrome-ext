@@ -1,0 +1,19 @@
+{
+  "name": "Github Chrome Extension",
+  "description": "Allows the user to view issues and pull requests for the uers's repository",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "github.png"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+G",
+        "mac": "MacCtrl+Shift+G"
+      },
+      "description": "Opens github chrome extensions"
+    }
+  }
+}
